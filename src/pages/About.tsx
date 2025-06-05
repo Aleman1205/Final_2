@@ -11,7 +11,7 @@ const milestones = [
   {
     year: '2024',
     title: 'Primer Proyecto',
-    description: 'Comenzó el desarrollo de nuestro título insignia "Campus Zero"".',
+    description: 'Comenzó el desarrollo de nuestro título insignia "Campus Zero".',
   },
   {
     year: '2025',
@@ -53,7 +53,7 @@ const About: React.FC = () => {
             Acerca Mov Enterprise
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          Somos un equipo apasionado de desarrolladores, artistas y narradores dedicados a crear experiencias de juego extraordinarias que impulsan los límites de la innovación y el entretenimiento.
+            Somos un equipo apasionado de desarrolladores, artistas y narradores dedicados a crear experiencias de juego extraordinarias que impulsan los límites de la innovación y el entretenimiento.
           </p>
         </div>
 
@@ -61,7 +61,7 @@ const About: React.FC = () => {
         <div className="bg-primary/5 dark:bg-gray-800 rounded-2xl p-8 mb-16">
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Nuestra Misión</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
-          Crear experiencias de juego inmersivas que inspiren la creatividad, fomenten la comunidad y ofrezcan momentos inolvidables a jugadores de todo el mundo. Creemos en el poder de los videojuegos para conectar personas, contar historias impactantes y transformar el entretenimiento interactivo.
+            Crear experiencias de juego inmersivas que inspiren la creatividad, fomenten la comunidad y ofrezcan momentos inolvidables a jugadores de todo el mundo. Creemos en el poder de los videojuegos para conectar personas, contar historias impactantes y transformar el entretenimiento interactivo.
           </p>
         </div>
 
@@ -101,8 +101,8 @@ const About: React.FC = () => {
           </div>
         </div>
 
-       {/* Team Section */}
-       <div>
+        {/* Team Section */}
+        <div>
           <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-8 text-center">Nuestro Equipo</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
@@ -110,31 +110,31 @@ const About: React.FC = () => {
                 name: "Fabian Garza",
                 position: "Líder de Proyecto / Diseño Técnico",
                 description: "Dirige la visión técnica del juego, asegurando que todas las mecánicas, físicas y sistemas estén integrados y optimizados. Su enfoque es estructurar el desarrollo de forma ágil y funcional.",
-                image: "images/team/fabian.png"
+                image: "/images/team/fabian.png"
               },
               {
                 name: "Mauricio Campos",
                 position: "Arte y Dirección Visual",
                 description: "Diseñador principal del estilo pixel art de Campus Zero. Define la estética visual, crea personajes, escenarios y asegura coherencia gráfica en toda la experiencia.",
-                image: "images/team/mau.png"
+                image: "/images/team/mau.png"
               },
               {
                 name: "Juan Ángel Cerda",
                 position: "Arte y Dirección Visual",
                 description: "Especialista en lógica de juego, responsable de los sistemas de movimiento, combate e interacción con NPCs y objetos. Desarrolla directamente en Unity con C#.",
-                image: "images/team/angel.png"
+                image: "/images/team/angel.png"
               },
               {
                 name: "José Ángel Aleman",
                 position: "UI/UX y Backend",
                 description: "Diseñó la interfaz de usuario, el HUD y el mapa interactivo del campus. Además, implementó la conexión con Firebase para guardar el progreso y gestionar datos del jugador.",
-                image: "images/team/jose.png"
+                image: "/images/team/jose.png"
               },
               {
                 name: "Luis Eduardo Cantu",
                 position: "Audio, QA y Documentación",
                 description: "Encargado de la ambientación sonora, efectos y pruebas funcionales. Documenta cada fase del desarrollo y lidera el control de calidad.",
-                image: "images/team/luis.png"
+                image: "/images/team/luis.png"
               }
             ].map((member, index) => (
               <div key={index} className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-sm">
